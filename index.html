@@ -24,7 +24,10 @@ function myFunction() {
   //document.getElementById("hi").innerHTML = i++;
   i+= mover;  
   if (i==23) {
-    document.getElementById("hi").innerHTML = "<a href='https://www.we-vibe.com/us/nova2'>click me</a>"
+    document.getElementById("hi").innerHTML = "<a href='https://www.we" +
+      //".com" + 
+      "-vibe.com" +
+                                              "/us/nova2'>click me</a>"
   } else {
     setTimeout(myFunction, 300)
     document.getElementById("hi").innerHTML = i;
